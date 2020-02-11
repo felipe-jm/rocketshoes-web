@@ -41,7 +41,6 @@ export default function Home() {
 
   return (
     <>
-    <h1>HELLOOOO</h1>
       <ProductList>
         {products.map(product => (
           <li key={product.id}>
